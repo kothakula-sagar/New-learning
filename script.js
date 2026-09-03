@@ -1,0 +1,1 @@
+document.querySelectorAll(".stage").forEach((el,i)=>{el.style.transition="transform .25s ease, box-shadow .25s ease";el.addEventListener("mouseenter",()=>{el.style.transform="translateY(-2px)";el.style.boxShadow="0 14px 35px rgba(14,165,233,.10)"});el.addEventListener("mouseleave",()=>{el.style.transform="";el.style.boxShadow=""})});
